@@ -7,6 +7,7 @@
   - Tech Stack
   - Folder/File explanation
   - Running this repl locally
+  - Customizing this Masotodon instance
 - Upgrading to Production
 - Contributing
 - Credits ❤
@@ -15,7 +16,7 @@
 ## About this Repl
 
 > The current configuration for the Repl is *development*. To upgrade to *production*, follow the [instructions](#upgrading-to-production)
-> 
+
 This is a Bash repl, which is essentially just a shell where programs can be run. Being a *one-click runable* repl, all you have to do to have your very own Mastodon instance is click the run button. I also reccomend you give this repl an **8x boost** and **enable Always On**. Both of these options are availible through Hacker plans.
 
 ### How this Repl Works
@@ -56,16 +57,17 @@ The Mastodon files in the GitHub repo are located in [`./live`](/live). The rest
 
 ### Running this Repl locally
 
-1. To run this repl on *your* machine, head over to the [GitHub](https://github.com/Sidd-underscore/Mastodon).
-2. Download the code from there (Replit doesn't like downloading big Repls)
-3. Extract the zip file and either `cd` into the resulting folder through the terminal or righ-click on the resulting folder and open it with the terminal
-4. Run
-   ```sh
-   sh start.sh
-   ```
-5. The code should start the Redis server, install everything and open a port.
+Unfortunately, this Repl is designed to run on Replit's machines, and cannot be easily converted to run on a personal computer. However, this isn't necessarily a bad thing, since it literally will only take one click of Replit's "Run" button to have this instace running.
 
-   ***THIS PROCESS MAY TAKE A WHILE AND IS INCREDIBLY RESOURCE-CONSUMING***
+### Customizing this Mastodon instance
+
+To truly have your own verion of Mastodon, it is essential that it works correctly and displays your Mastodon instance's information. To do this:
+
+1. Head to the [`.env.production.sample`](/live/.env.productiion.sample) in the `live/` folder
+2. Enter the correct information
+   - Details and instructions are already there!
+   - Mailgun is used for the SMPT server, but it can be changed to whatever you like
+4. Restart the server!
 
 ## Upgrading to Production 
 
