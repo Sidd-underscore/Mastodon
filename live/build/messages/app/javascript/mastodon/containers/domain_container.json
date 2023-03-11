@@ -1,0 +1,1 @@
+[{"id":"confirmations.domain_block.confirm","defaultMessage":"Block entire domain"},{"id":"confirmations.domain_block.message","defaultMessage":"Are you really, really sure you want to block the entire {domain}? In most cases a few targeted blocks or mutes are sufficient and preferable."}]

@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict'; // var modulo = require('./modulo');\n\nvar $floor = Math.floor; // http://ecma-international.org/ecma-262/5.1/#sec-5.2\n\nmodule.exports = function floor(x) {\n  // return x - modulo(x, 1);\n  return $floor(x);\n};","map":null,"metadata":{"react-intl":{"messages":[]}},"sourceType":"module"}

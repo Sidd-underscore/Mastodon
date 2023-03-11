@@ -1,0 +1,1 @@
+{"ast":null,"code":"\"use strict\";\n\nif (!require(\"./is-implemented\")()) {\n  Object.defineProperty(require(\"ext/global-this\"), \"Symbol\", {\n    value: require(\"./polyfill\"),\n    configurable: true,\n    enumerable: false,\n    writable: true\n  });\n}","map":null,"metadata":{"react-intl":{"messages":[]}},"sourceType":"module"}

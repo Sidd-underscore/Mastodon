@@ -1,0 +1,1 @@
+[{"id":"alert.unexpected.title","defaultMessage":"Oops!"},{"id":"alert.unexpected.message","defaultMessage":"An unexpected error occurred."},{"id":"alert.rate_limited.title","defaultMessage":"Rate limited"},{"id":"alert.rate_limited.message","defaultMessage":"Please retry after {retry_time, time, medium}."}]

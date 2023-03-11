@@ -1,0 +1,1 @@
+{"ast":null,"code":"import isEqual from 'lodash.isequal';\n\nfunction hasChanged(newValue, previousValue) {\n  return !isEqual(newValue, previousValue);\n}\n\nexport default hasChanged;","map":null,"metadata":{"react-intl":{"messages":[]}},"sourceType":"module"}

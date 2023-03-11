@@ -1,0 +1,1 @@
+[{"id":"account.statuses_counter","defaultMessage":"{count, plural, one {{counter} Toot} other {{counter} Toots}}"},{"id":"account.following_counter","defaultMessage":"{count, plural, one {{counter} Following} other {{counter} Following}}"},{"id":"account.followers_counter","defaultMessage":"{count, plural, one {{counter} Follower} other {{counter} Followers}}"}]

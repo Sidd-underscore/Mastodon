@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nmodule.exports = function requirePromise() {\n  if (typeof Promise !== 'function') {\n    throw new TypeError('`Promise.prototype.finally` requires a global `Promise` be available.');\n  }\n};","map":null,"metadata":{"react-intl":{"messages":[]}},"sourceType":"module"}

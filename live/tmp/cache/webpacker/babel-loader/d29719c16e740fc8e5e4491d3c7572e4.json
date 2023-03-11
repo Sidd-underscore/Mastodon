@@ -1,0 +1,1 @@
+{"ast":null,"code":"require('../styles/mailer.scss');","map":{"version":3,"sources":["/home/runner/Mastodon/live/app/javascript/packs/mailer.js"],"names":["require"],"mappings":"AAAAA,OAAO,CAAC,uBAAD,CAAP","sourcesContent":["require('../styles/mailer.scss');\n"]},"metadata":{"react-intl":{"messages":[]}},"sourceType":"module"}

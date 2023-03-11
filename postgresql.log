@@ -1,0 +1,437 @@
+2021-12-20 09:35:46.151 GMT [17774] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2021-12-20 09:35:46.151 GMT [17774] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-20 09:35:46.157 GMT [17774] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2021-12-20 09:35:46.161 GMT [17775] LOG:  database system was shut down at 2021-12-20 09:35:10 GMT
+2021-12-20 09:35:46.165 GMT [17774] LOG:  database system is ready to accept connections
+2021-12-20 09:37:03.142 GMT [17774] LOG:  received fast shutdown request
+2021-12-20 09:37:03.519 GMT [17774] LOG:  aborting any active transactions
+2021-12-20 09:37:03.521 GMT [17774] LOG:  background worker "logical replication launcher" (PID 17781) exited with exit code 1
+2021-12-20 09:37:03.521 GMT [17776] LOG:  shutting down
+2021-12-20 09:37:03.537 GMT [17774] LOG:  database system is shut down
+2021-12-20 09:37:03.674 GMT [17804] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2021-12-20 09:37:03.674 GMT [17804] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-20 09:37:03.676 GMT [17804] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2021-12-20 09:37:03.682 GMT [17805] LOG:  database system was shut down at 2021-12-20 09:37:03 GMT
+2021-12-20 09:37:03.687 GMT [17804] LOG:  database system is ready to accept connections
+2021-12-20 09:44:49.371 GMT [17804] LOG:  background worker "logical replication launcher" (PID 17811) exited with exit code 1
+2021-12-20 09:45:29.406 GMT [17804] LOG:  received smart shutdown request
+2021-12-20 09:45:29.408 GMT [17804] LOG:  background worker "logical replication launcher" (PID 17956) exited with exit code 1
+2021-12-20 09:45:29.408 GMT [17806] LOG:  shutting down
+2021-12-20 09:45:29.436 GMT [17804] LOG:  database system is shut down
+2021-12-20 09:48:06.863 GMT [18028] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2021-12-20 09:48:06.863 GMT [18028] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-20 09:48:06.865 GMT [18028] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2021-12-20 09:48:06.872 GMT [18029] LOG:  database system was shut down at 2021-12-20 09:45:29 GMT
+2021-12-20 09:48:06.880 GMT [18028] LOG:  database system is ready to accept connections
+2021-12-20 09:48:14.640 GMT [18072] ERROR:  database "mastodon_development" already exists
+2021-12-20 09:48:14.640 GMT [18072] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2021-12-20 09:48:14.651 GMT [18073] ERROR:  database "mastodon_test" already exists
+2021-12-20 09:48:14.651 GMT [18073] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2021-12-20 09:55:00.521 GMT [18028] LOG:  received fast shutdown request
+2021-12-20 09:55:00.523 GMT [18028] LOG:  aborting any active transactions
+2021-12-20 09:55:00.524 GMT [18028] LOG:  background worker "logical replication launcher" (PID 18035) exited with exit code 1
+2021-12-20 09:55:00.526 GMT [18030] LOG:  shutting down
+2021-12-20 09:55:00.877 GMT [18028] LOG:  database system is shut down
+2021-12-20 09:55:01.004 GMT [18196] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2021-12-20 09:55:01.005 GMT [18196] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-20 09:55:01.007 GMT [18196] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2021-12-20 09:55:01.010 GMT [18197] LOG:  database system was shut down at 2021-12-20 09:55:00 GMT
+2021-12-20 09:55:01.015 GMT [18196] LOG:  database system is ready to accept connections
+2021-12-20 09:55:09.071 GMT [18229] ERROR:  database "mastodon_development" already exists
+2021-12-20 09:55:09.071 GMT [18229] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2021-12-20 09:55:09.081 GMT [18230] ERROR:  database "mastodon_test" already exists
+2021-12-20 09:55:09.081 GMT [18230] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2022-01-22 19:17:00.189 GMT [8191] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-01-22 19:17:00.189 GMT [8191] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-01-22 19:17:00.191 GMT [8191] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-01-22 19:17:00.196 GMT [8192] LOG:  database system was interrupted; last known up at 2021-12-20 10:00:44 GMT
+2022-01-22 19:17:00.338 GMT [8192] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-22 19:17:00.342 GMT [8192] LOG:  redo starts at 0/2FE45B8
+2022-01-22 19:17:00.343 GMT [8192] LOG:  invalid record length at 0/2FE46A0: wanted 24, got 0
+2022-01-22 19:17:00.343 GMT [8192] LOG:  redo done at 0/2FE4668
+2022-01-22 19:17:00.357 GMT [8191] LOG:  database system is ready to accept connections
+2022-01-23 17:04:38.716 GMT [8190] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-01-23 17:04:38.716 GMT [8190] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-01-23 17:04:38.718 GMT [8190] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-01-23 17:04:38.723 GMT [8191] LOG:  database system was interrupted; last known up at 2022-01-22 19:17:00 GMT
+2022-01-23 17:04:38.819 GMT [8191] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-23 17:04:38.822 GMT [8191] LOG:  redo starts at 0/2FE4718
+2022-01-23 17:04:38.822 GMT [8191] LOG:  invalid record length at 0/2FE4750: wanted 24, got 0
+2022-01-23 17:04:38.822 GMT [8191] LOG:  redo done at 0/2FE4718
+2022-01-23 17:04:38.833 GMT [8190] LOG:  database system is ready to accept connections
+2022-02-20 13:23:50.456 GMT [8192] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-02-20 13:23:50.457 GMT [8192] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-02-20 13:23:50.459 GMT [8192] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-02-20 13:23:50.465 GMT [8193] LOG:  database system was interrupted; last known up at 2022-01-23 17:04:38 GMT
+2022-02-20 13:23:50.558 GMT [8193] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-02-20 13:23:50.559 GMT [8193] LOG:  redo starts at 0/2FE47C8
+2022-02-20 13:23:50.559 GMT [8193] LOG:  invalid record length at 0/2FE4800: wanted 24, got 0
+2022-02-20 13:23:50.559 GMT [8193] LOG:  redo done at 0/2FE47C8
+2022-02-20 13:23:50.598 GMT [8192] LOG:  database system is ready to accept connections
+2022-03-15 13:17:50.846 GMT [8193] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-03-15 13:17:50.848 GMT [8193] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-03-15 13:17:50.851 GMT [8193] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-03-15 13:17:50.863 GMT [8194] LOG:  database system was interrupted; last known up at 2022-02-20 13:23:50 GMT
+2022-03-15 13:17:51.122 GMT [8194] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-03-15 13:17:51.125 GMT [8194] LOG:  redo starts at 0/2FE4878
+2022-03-15 13:17:51.125 GMT [8194] LOG:  invalid record length at 0/2FE48B0: wanted 24, got 0
+2022-03-15 13:17:51.126 GMT [8194] LOG:  redo done at 0/2FE4878
+2022-03-15 13:17:51.167 GMT [8193] LOG:  database system is ready to accept connections
+2022-05-06 20:02:24.884 GMT [8192] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-05-06 20:02:24.911 GMT [8192] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-05-06 20:02:24.913 GMT [8192] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-05-06 20:02:24.919 GMT [8193] LOG:  database system was interrupted; last known up at 2022-03-15 13:17:51 GMT
+2022-05-06 20:02:25.174 GMT [8193] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-05-06 20:02:25.179 GMT [8193] LOG:  redo starts at 0/2FE4928
+2022-05-06 20:02:25.179 GMT [8193] LOG:  invalid record length at 0/2FE4960: wanted 24, got 0
+2022-05-06 20:02:25.179 GMT [8193] LOG:  redo done at 0/2FE4928
+2022-05-06 20:02:25.201 GMT [8192] LOG:  database system is ready to accept connections
+2022-05-10 01:34:04.967 GMT [8191] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-05-10 01:34:04.968 GMT [8191] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-05-10 01:34:04.974 GMT [8191] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-05-10 01:34:04.984 GMT [8192] LOG:  database system was interrupted; last known up at 2022-05-06 20:02:25 GMT
+2022-05-10 01:34:05.202 GMT [8192] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-05-10 01:34:05.205 GMT [8192] LOG:  redo starts at 0/2FE49D8
+2022-05-10 01:34:05.205 GMT [8192] LOG:  invalid record length at 0/2FE4A10: wanted 24, got 0
+2022-05-10 01:34:05.205 GMT [8192] LOG:  redo done at 0/2FE49D8
+2022-05-10 01:34:05.226 GMT [8191] LOG:  database system is ready to accept connections
+2022-07-13 10:04:33.400 GMT [8191] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-07-13 10:04:33.400 GMT [8191] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-07-13 10:04:33.403 GMT [8191] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-07-13 10:04:33.414 GMT [8192] LOG:  database system was interrupted; last known up at 2022-05-10 01:34:05 GMT
+2022-07-13 10:04:33.661 GMT [8192] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-07-13 10:04:33.666 GMT [8192] LOG:  redo starts at 0/2FE4A88
+2022-07-13 10:04:33.666 GMT [8192] LOG:  invalid record length at 0/2FE4AC0: wanted 24, got 0
+2022-07-13 10:04:33.666 GMT [8192] LOG:  redo done at 0/2FE4A88
+2022-07-13 10:04:33.680 GMT [8191] LOG:  database system is ready to accept connections
+2022-07-13 10:18:12.578 GMT [17396] ERROR:  database "mastodon_development" already exists
+2022-07-13 10:18:12.578 GMT [17396] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2022-07-13 10:18:12.593 GMT [17397] ERROR:  database "mastodon_test" already exists
+2022-07-13 10:18:12.593 GMT [17397] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2022-08-01 07:44:26.228 GMT [8192] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-08-01 07:44:26.228 GMT [8192] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-01 07:44:26.234 GMT [8192] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-08-01 07:44:26.249 GMT [8193] LOG:  database system was interrupted; last known up at 2022-07-13 10:20:23 GMT
+2022-08-01 07:44:26.396 GMT [8193] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-08-01 07:44:26.400 GMT [8193] LOG:  redo starts at 0/39BA670
+2022-08-01 07:44:26.400 GMT [8193] LOG:  invalid record length at 0/39BA758: wanted 24, got 0
+2022-08-01 07:44:26.400 GMT [8193] LOG:  redo done at 0/39BA720
+2022-08-01 07:44:26.421 GMT [8192] LOG:  database system is ready to accept connections
+2022-08-01 07:57:45.555 GMT [17400] ERROR:  database "mastodon_development" already exists
+2022-08-01 07:57:45.555 GMT [17400] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2022-08-01 07:57:45.583 GMT [17401] ERROR:  database "mastodon_test" already exists
+2022-08-01 07:57:45.583 GMT [17401] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2022-08-09 20:08:44.215 GMT [8192] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-08-09 20:08:44.217 GMT [8192] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-09 20:08:44.227 GMT [8192] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-08-09 20:08:44.240 GMT [8193] LOG:  database system was interrupted; last known up at 2022-08-01 08:00:15 GMT
+2022-08-09 20:08:45.390 GMT [8193] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-08-09 20:08:45.404 GMT [8193] LOG:  redo starts at 0/4383868
+2022-08-09 20:08:45.404 GMT [8193] LOG:  invalid record length at 0/4383950: wanted 24, got 0
+2022-08-09 20:08:45.404 GMT [8193] LOG:  redo done at 0/4383918
+2022-08-09 20:08:45.481 GMT [8192] LOG:  database system is ready to accept connections
+2022-08-09 20:44:19.816 GMT [17433] ERROR:  database "mastodon_development" already exists
+2022-08-09 20:44:19.816 GMT [17433] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2022-08-09 20:44:19.857 GMT [17434] ERROR:  database "mastodon_test" already exists
+2022-08-09 20:44:19.857 GMT [17434] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2022-08-25 02:54:50.040 GMT [8192] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-08-25 02:54:50.044 GMT [8192] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-08-25 02:54:50.052 GMT [8192] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-08-25 02:54:50.066 GMT [8193] LOG:  database system was interrupted; last known up at 2022-08-09 20:49:27 GMT
+2022-08-25 02:54:50.295 GMT [8193] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-08-25 02:54:50.299 GMT [8193] LOG:  redo starts at 0/4D534B0
+2022-08-25 02:54:50.299 GMT [8193] LOG:  invalid record length at 0/4D53598: wanted 24, got 0
+2022-08-25 02:54:50.299 GMT [8193] LOG:  redo done at 0/4D53560
+2022-08-25 02:54:50.320 GMT [8192] LOG:  database system is ready to accept connections
+2022-08-25 03:09:49.947 GMT [17409] ERROR:  database "mastodon_development" already exists
+2022-08-25 03:09:49.947 GMT [17409] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2022-08-25 03:09:50.008 GMT [17410] ERROR:  database "mastodon_test" already exists
+2022-08-25 03:09:50.008 GMT [17410] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2022-10-27 04:17:14.893 GMT [8192] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-10-27 04:17:14.896 GMT [8192] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-27 04:17:14.905 GMT [8192] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-10-27 04:17:14.916 GMT [8193] LOG:  database system was interrupted; last known up at 2022-08-25 03:15:33 GMT
+2022-10-27 04:17:15.082 GMT [8193] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-10-27 04:17:15.152 GMT [8193] LOG:  redo starts at 0/5764770
+2022-10-27 04:17:15.152 GMT [8193] LOG:  invalid record length at 0/5764858: wanted 24, got 0
+2022-10-27 04:17:15.152 GMT [8193] LOG:  redo done at 0/5764820
+2022-10-27 04:17:15.194 GMT [8192] LOG:  database system is ready to accept connections
+2022-10-27 04:39:45.239 GMT [17404] ERROR:  database "mastodon_development" already exists
+2022-10-27 04:39:45.239 GMT [17404] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2022-10-27 04:39:45.288 GMT [17405] ERROR:  database "mastodon_test" already exists
+2022-10-27 04:39:45.288 GMT [17405] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2022-11-02 02:49:37.296 GMT [8192] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-11-02 02:49:37.301 GMT [8192] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-11-02 02:49:37.325 GMT [8192] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-11-02 02:49:37.340 GMT [8193] LOG:  database system was interrupted; last known up at 2022-10-27 04:42:56 GMT
+2022-11-02 02:49:37.600 GMT [8193] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-11-02 02:49:37.604 GMT [8193] LOG:  redo starts at 0/6132048
+2022-11-02 02:49:37.604 GMT [8193] LOG:  invalid record length at 0/6132130: wanted 24, got 0
+2022-11-02 02:49:37.604 GMT [8193] LOG:  redo done at 0/61320F8
+2022-11-02 02:49:37.632 GMT [8192] LOG:  database system is ready to accept connections
+2022-11-02 03:14:39.528 GMT [17410] ERROR:  database "mastodon_development" already exists
+2022-11-02 03:14:39.528 GMT [17410] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2022-11-02 03:14:39.758 GMT [17411] ERROR:  database "mastodon_test" already exists
+2022-11-02 03:14:39.758 GMT [17411] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2022-11-07 11:18:50.049 GMT [8191] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-11-07 11:18:50.051 GMT [8191] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-11-07 11:18:50.056 GMT [8191] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-11-07 11:18:50.062 GMT [8192] LOG:  database system was interrupted; last known up at 2022-11-02 03:20:21 GMT
+2022-11-07 11:18:50.427 GMT [8192] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-11-07 11:18:50.495 GMT [8192] LOG:  redo starts at 0/6AFFA78
+2022-11-07 11:18:50.495 GMT [8192] LOG:  invalid record length at 0/6AFFB60: wanted 24, got 0
+2022-11-07 11:18:50.495 GMT [8192] LOG:  redo done at 0/6AFFB28
+2022-11-07 11:18:50.513 GMT [8191] LOG:  database system is ready to accept connections
+2022-11-07 11:40:26.498 GMT [17404] ERROR:  database "mastodon_development" already exists
+2022-11-07 11:40:26.498 GMT [17404] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2022-11-07 11:40:26.539 GMT [17405] ERROR:  database "mastodon_test" already exists
+2022-11-07 11:40:26.539 GMT [17405] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2022-11-10 22:05:45.064 GMT [8192] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-11-10 22:05:45.068 GMT [8192] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-11-10 22:05:45.099 GMT [8192] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-11-10 22:05:45.107 GMT [8193] LOG:  database system was interrupted; last known up at 2022-11-07 11:44:29 GMT
+2022-11-10 22:05:45.543 GMT [8193] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-11-10 22:05:45.556 GMT [8193] LOG:  redo starts at 0/74C3928
+2022-11-10 22:05:45.556 GMT [8193] LOG:  invalid record length at 0/74C3A10: wanted 24, got 0
+2022-11-10 22:05:45.556 GMT [8193] LOG:  redo done at 0/74C39D8
+2022-11-10 22:05:45.612 GMT [8192] LOG:  database system is ready to accept connections
+2022-11-10 22:32:42.981 GMT [17419] ERROR:  database "mastodon_development" already exists
+2022-11-10 22:32:42.981 GMT [17419] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2022-11-10 22:32:43.045 GMT [17420] ERROR:  database "mastodon_test" already exists
+2022-11-10 22:32:43.045 GMT [17420] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2022-11-17 01:41:19.600 GMT [8192] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-11-17 01:41:19.601 GMT [8192] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-11-17 01:41:19.606 GMT [8192] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-11-17 01:41:19.620 GMT [8193] LOG:  database system was interrupted; last known up at 2022-11-10 22:36:30 GMT
+2022-11-17 01:41:19.997 GMT [8193] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-11-17 01:41:20.009 GMT [8193] LOG:  redo starts at 0/7E9ABD8
+2022-11-17 01:41:20.009 GMT [8193] LOG:  invalid record length at 0/7E9ACC0: wanted 24, got 0
+2022-11-17 01:41:20.009 GMT [8193] LOG:  redo done at 0/7E9AC88
+2022-11-17 01:41:20.065 GMT [8192] LOG:  database system is ready to accept connections
+2022-11-24 22:28:06.012 GMT [8192] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-11-24 22:28:06.019 GMT [8192] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-11-24 22:28:06.039 GMT [8192] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-11-24 22:28:06.056 GMT [8193] LOG:  database system was interrupted; last known up at 2022-11-17 01:41:20 GMT
+2022-11-24 22:28:06.400 GMT [8193] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-11-24 22:28:06.416 GMT [8193] LOG:  redo starts at 0/7E9AD38
+2022-11-24 22:28:06.416 GMT [8193] LOG:  invalid record length at 0/7E9AD70: wanted 24, got 0
+2022-11-24 22:28:06.416 GMT [8193] LOG:  redo done at 0/7E9AD38
+2022-11-24 22:28:06.498 GMT [8192] LOG:  database system is ready to accept connections
+2022-11-24 22:53:39.943 GMT [17412] ERROR:  database "mastodon_development" already exists
+2022-11-24 22:53:39.943 GMT [17412] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2022-11-24 22:53:40.020 GMT [17413] ERROR:  database "mastodon_test" already exists
+2022-11-24 22:53:40.020 GMT [17413] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2022-11-25 06:47:10.040 GMT [8191] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-11-25 06:47:10.041 GMT [8191] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-11-25 06:47:10.056 GMT [8191] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-11-25 06:47:10.073 GMT [8192] LOG:  database system was interrupted; last known up at 2022-11-24 22:58:48 GMT
+2022-11-25 06:47:10.381 GMT [8192] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-11-25 06:47:10.385 GMT [8192] LOG:  redo starts at 0/8869850
+2022-11-25 06:47:10.385 GMT [8192] LOG:  invalid record length at 0/8869938: wanted 24, got 0
+2022-11-25 06:47:10.385 GMT [8192] LOG:  redo done at 0/8869900
+2022-11-25 06:47:10.411 GMT [8191] LOG:  database system is ready to accept connections
+2022-11-25 17:45:08.608 GMT [8192] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2022-11-25 17:45:08.608 GMT [8192] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-11-25 17:45:08.614 GMT [8192] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2022-11-25 17:45:08.619 GMT [8193] LOG:  database system was interrupted; last known up at 2022-11-25 06:47:10 GMT
+2022-11-25 17:45:08.928 GMT [8193] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-11-25 17:45:08.931 GMT [8193] LOG:  redo starts at 0/88699B0
+2022-11-25 17:45:08.931 GMT [8193] LOG:  invalid record length at 0/88699E8: wanted 24, got 0
+2022-11-25 17:45:08.931 GMT [8193] LOG:  redo done at 0/88699B0
+2022-11-25 17:45:08.942 GMT [8192] LOG:  database system is ready to accept connections
+2022-11-25 18:01:21.026 GMT [17404] ERROR:  database "mastodon_development" already exists
+2022-11-25 18:01:21.026 GMT [17404] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2022-11-25 18:01:21.036 GMT [17405] ERROR:  database "mastodon_test" already exists
+2022-11-25 18:01:21.036 GMT [17405] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-03 17:47:47.663 GMT [8875] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-03 17:47:47.664 GMT [8875] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-03 17:47:47.666 GMT [8875] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-03 17:47:47.670 GMT [8876] LOG:  database system was interrupted; last known up at 2022-11-25 18:05:51 GMT
+2023-03-03 17:47:47.738 GMT [8876] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-03 17:47:47.741 GMT [8876] LOG:  redo starts at 0/922CED8
+2023-03-03 17:47:47.741 GMT [8876] LOG:  invalid record length at 0/922CFC0: wanted 24, got 0
+2023-03-03 17:47:47.741 GMT [8876] LOG:  redo done at 0/922CF88
+2023-03-03 17:47:47.750 GMT [8875] LOG:  database system is ready to accept connections
+2023-03-03 17:51:24.540 GMT [18907] ERROR:  database "mastodon_development" already exists
+2023-03-03 17:51:24.540 GMT [18907] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-03 17:51:24.550 GMT [18908] ERROR:  database "mastodon_test" already exists
+2023-03-03 17:51:24.550 GMT [18908] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-03 18:52:13.501 GMT [8245] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-03 18:52:13.502 GMT [8245] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-03 18:52:13.505 GMT [8245] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-03 18:52:13.510 GMT [8246] LOG:  database system was interrupted; last known up at 2023-03-03 18:12:48 GMT
+2023-03-03 18:52:13.580 GMT [8246] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-03 18:52:13.583 GMT [8246] LOG:  redo starts at 0/9C02D30
+2023-03-03 18:52:13.583 GMT [8246] LOG:  invalid record length at 0/9C02E18: wanted 24, got 0
+2023-03-03 18:52:13.583 GMT [8246] LOG:  redo done at 0/9C02DE0
+2023-03-03 18:52:13.599 GMT [8245] LOG:  database system is ready to accept connections
+2023-03-03 18:56:16.661 GMT [17442] ERROR:  database "mastodon_development" already exists
+2023-03-03 18:56:16.661 GMT [17442] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-03 18:56:16.671 GMT [17443] ERROR:  database "mastodon_test" already exists
+2023-03-03 18:56:16.671 GMT [17443] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-03 19:55:17.333 GMT [8246] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-03 19:55:17.334 GMT [8246] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-03 19:55:17.338 GMT [8246] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-03 19:55:17.342 GMT [8247] LOG:  database system was interrupted; last known up at 2023-03-03 19:12:32 GMT
+2023-03-03 19:55:17.431 GMT [8247] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-03 19:55:17.433 GMT [8247] LOG:  redo starts at 0/A6B0708
+2023-03-03 19:55:17.433 GMT [8247] LOG:  invalid record length at 0/A6B07F0: wanted 24, got 0
+2023-03-03 19:55:17.433 GMT [8247] LOG:  redo done at 0/A6B07B8
+2023-03-03 19:55:17.445 GMT [8246] LOG:  database system is ready to accept connections
+2023-03-03 19:59:17.470 GMT [17448] ERROR:  database "mastodon_development" already exists
+2023-03-03 19:59:17.470 GMT [17448] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-03 19:59:17.480 GMT [17449] ERROR:  database "mastodon_test" already exists
+2023-03-03 19:59:17.480 GMT [17449] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-03 21:16:23.494 GMT [8257] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-03 21:16:23.495 GMT [8257] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-03 21:16:23.498 GMT [8257] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-03 21:16:23.504 GMT [8258] LOG:  database system was interrupted; last known up at 2023-03-03 20:01:08 GMT
+2023-03-03 21:16:23.588 GMT [8258] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-03 21:16:23.592 GMT [8258] LOG:  redo starts at 0/B049DE0
+2023-03-03 21:16:23.604 GMT [8258] LOG:  invalid record length at 0/B0B8198: wanted 24, got 0
+2023-03-03 21:16:23.604 GMT [8258] LOG:  redo done at 0/B0B8160
+2023-03-03 21:16:23.636 GMT [8257] LOG:  database system is ready to accept connections
+2023-03-03 21:20:30.440 GMT [17465] ERROR:  database "mastodon_development" already exists
+2023-03-03 21:20:30.440 GMT [17465] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-03 21:20:30.451 GMT [17466] ERROR:  database "mastodon_test" already exists
+2023-03-03 21:20:30.451 GMT [17466] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-05 05:40:17.941 GMT [8254] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-05 05:40:17.942 GMT [8254] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-05 05:40:17.945 GMT [8254] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-05 05:40:17.950 GMT [8258] LOG:  database system was interrupted; last known up at 2023-03-03 21:31:43 GMT
+2023-03-05 05:40:18.034 GMT [8258] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-05 05:40:18.037 GMT [8258] LOG:  redo starts at 0/BB5F250
+2023-03-05 05:40:18.037 GMT [8258] LOG:  invalid record length at 0/BB5F338: wanted 24, got 0
+2023-03-05 05:40:18.037 GMT [8258] LOG:  redo done at 0/BB5F300
+2023-03-05 05:40:18.049 GMT [8254] LOG:  database system is ready to accept connections
+2023-03-05 05:44:22.153 GMT [17911] ERROR:  database "mastodon_development" already exists
+2023-03-05 05:44:22.153 GMT [17911] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-05 05:44:22.163 GMT [17912] ERROR:  database "mastodon_test" already exists
+2023-03-05 05:44:22.163 GMT [17912] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-07 17:24:11.947 GMT [8240] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-07 17:24:11.948 GMT [8240] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-07 17:24:11.951 GMT [8240] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-07 17:24:11.955 GMT [8242] LOG:  database system was interrupted; last known up at 2023-03-05 05:45:52 GMT
+2023-03-07 17:24:12.032 GMT [8242] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-07 17:24:12.035 GMT [8242] LOG:  redo starts at 0/C4CEE48
+2023-03-07 17:24:12.059 GMT [8242] LOG:  invalid record length at 0/C621E68: wanted 24, got 0
+2023-03-07 17:24:12.059 GMT [8242] LOG:  redo done at 0/C621E30
+2023-03-07 17:24:12.118 GMT [8240] LOG:  database system is ready to accept connections
+2023-03-07 17:28:09.965 GMT [17437] ERROR:  database "mastodon_development" already exists
+2023-03-07 17:28:09.965 GMT [17437] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-07 17:28:09.973 GMT [17438] ERROR:  database "mastodon_test" already exists
+2023-03-07 17:28:09.973 GMT [17438] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-08 05:06:06.355 GMT [8243] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-08 05:06:06.355 GMT [8243] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-08 05:06:06.359 GMT [8243] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-08 05:06:06.365 GMT [8244] LOG:  database system was interrupted; last known up at 2023-03-07 20:34:17 GMT
+2023-03-08 05:06:06.429 GMT [8244] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-08 05:06:06.433 GMT [8244] LOG:  redo starts at 0/CFFA660
+2023-03-08 05:06:06.433 GMT [8244] LOG:  invalid record length at 0/CFFA748: wanted 24, got 0
+2023-03-08 05:06:06.433 GMT [8244] LOG:  redo done at 0/CFFA710
+2023-03-08 05:06:06.443 GMT [8243] LOG:  database system is ready to accept connections
+2023-03-08 05:10:22.056 GMT [17441] ERROR:  database "mastodon_development" already exists
+2023-03-08 05:10:22.056 GMT [17441] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-08 05:10:22.067 GMT [17442] ERROR:  database "mastodon_test" already exists
+2023-03-08 05:10:22.067 GMT [17442] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-09 17:24:19.212 GMT [8255] FATAL:  lock file "postmaster.pid" already exists
+2023-03-09 17:24:19.212 GMT [8255] HINT:  Is another postmaster (PID 8243) running in data directory "/home/runner/Mastodon/data"?
+2023-03-09 18:37:55.561 GMT [8240] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-09 18:37:55.562 GMT [8240] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-09 18:37:55.567 GMT [8240] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-09 18:37:55.572 GMT [8241] LOG:  database system was interrupted; last known up at 2023-03-08 15:06:35 GMT
+2023-03-09 18:37:55.630 GMT [8241] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-09 18:37:55.635 GMT [8241] LOG:  redo starts at 0/DADB960
+2023-03-09 18:37:55.635 GMT [8241] LOG:  invalid record length at 0/DADBA48: wanted 24, got 0
+2023-03-09 18:37:55.635 GMT [8241] LOG:  redo done at 0/DADBA10
+2023-03-09 18:37:55.647 GMT [8240] LOG:  database system is ready to accept connections
+2023-03-09 18:42:48.727 GMT [17438] ERROR:  database "mastodon_development" already exists
+2023-03-09 18:42:48.727 GMT [17438] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-09 18:42:48.737 GMT [17439] ERROR:  database "mastodon_test" already exists
+2023-03-09 18:42:48.737 GMT [17439] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-10 01:42:47.046 GMT [8236] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-10 01:42:47.047 GMT [8236] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-10 01:42:47.048 GMT [8236] FATAL:  lock file "/home/runner/Mastodon/postgres/.s.PGSQL.5432.lock" already exists
+2023-03-10 01:42:47.048 GMT [8236] HINT:  Is another postmaster (PID 8240) using socket file "/home/runner/Mastodon/postgres/.s.PGSQL.5432"?
+2023-03-10 01:42:47.049 GMT [8236] LOG:  database system is shut down
+2023-03-10 21:39:46.050 GMT [8240] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-10 21:39:46.051 GMT [8240] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-10 21:39:46.056 GMT [8240] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-10 21:39:46.061 GMT [8241] LOG:  database system was interrupted; last known up at 2023-03-09 18:48:36 GMT
+2023-03-10 21:39:46.134 GMT [8241] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-10 21:39:46.142 GMT [8241] LOG:  redo starts at 0/E66C7E0
+2023-03-10 21:39:46.142 GMT [8241] LOG:  invalid record length at 0/E66C8C8: wanted 24, got 0
+2023-03-10 21:39:46.142 GMT [8241] LOG:  redo done at 0/E66C890
+2023-03-10 21:39:46.155 GMT [8240] LOG:  database system is ready to accept connections
+2023-03-10 21:44:38.214 GMT [17439] ERROR:  database "mastodon_development" already exists
+2023-03-10 21:44:38.214 GMT [17439] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-10 21:44:38.225 GMT [17440] ERROR:  database "mastodon_test" already exists
+2023-03-10 21:44:38.225 GMT [17440] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-11 01:54:10.718 GMT [8240] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-11 01:54:10.719 GMT [8240] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-11 01:54:10.721 GMT [8240] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-11 01:54:10.725 GMT [8241] LOG:  database system was interrupted; last known up at 2023-03-10 22:54:48 GMT
+2023-03-11 01:54:10.779 GMT [8241] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-11 01:54:10.783 GMT [8241] LOG:  redo starts at 0/F1EC130
+2023-03-11 01:54:10.783 GMT [8241] LOG:  invalid record length at 0/F1EC218: wanted 24, got 0
+2023-03-11 01:54:10.783 GMT [8241] LOG:  redo done at 0/F1EC1E0
+2023-03-11 01:54:10.794 GMT [8240] LOG:  database system is ready to accept connections
+2023-03-11 01:58:42.085 GMT [17437] ERROR:  database "mastodon_development" already exists
+2023-03-11 01:58:42.085 GMT [17437] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-11 01:58:42.179 GMT [17438] ERROR:  database "mastodon_test" already exists
+2023-03-11 01:58:42.179 GMT [17438] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-11 03:44:51.675 GMT [8240] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-11 03:44:51.676 GMT [8240] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-11 03:44:51.680 GMT [8240] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-11 03:44:51.684 GMT [8242] LOG:  database system was interrupted; last known up at 2023-03-11 03:04:44 GMT
+2023-03-11 03:44:51.750 GMT [8242] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-11 03:44:51.754 GMT [8242] LOG:  redo starts at 0/FD71930
+2023-03-11 03:44:51.754 GMT [8242] LOG:  invalid record length at 0/FD71A18: wanted 24, got 0
+2023-03-11 03:44:51.754 GMT [8242] LOG:  redo done at 0/FD719E0
+2023-03-11 03:44:51.766 GMT [8240] LOG:  database system is ready to accept connections
+2023-03-11 03:48:53.319 GMT [18444] ERROR:  database "mastodon_development" already exists
+2023-03-11 03:48:53.319 GMT [18444] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-11 03:48:53.327 GMT [18445] ERROR:  database "mastodon_test" already exists
+2023-03-11 03:48:53.327 GMT [18445] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-11 04:12:57.239 GMT [8247] FATAL:  lock file "postmaster.pid" already exists
+2023-03-11 04:12:57.239 GMT [8247] HINT:  Is another postmaster (PID 8240) running in data directory "/home/runner/Mastodon/data"?
+2023-03-11 04:17:33.028 GMT [19308] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-11 04:17:33.028 GMT [19308] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-11 04:17:33.031 GMT [19308] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-11 04:17:33.034 GMT [19309] LOG:  database system was interrupted; last known up at 2023-03-11 04:00:09 GMT
+2023-03-11 04:17:33.083 GMT [19309] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-11 04:17:33.086 GMT [19309] LOG:  redo starts at 0/10835B90
+2023-03-11 04:17:33.086 GMT [19309] LOG:  invalid record length at 0/10835C78: wanted 24, got 0
+2023-03-11 04:17:33.086 GMT [19309] LOG:  redo done at 0/10835C40
+2023-03-11 04:17:33.095 GMT [19308] LOG:  database system is ready to accept connections
+2023-03-11 04:17:40.158 GMT [19381] ERROR:  database "mastodon_development" already exists
+2023-03-11 04:17:40.158 GMT [19381] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-11 04:17:40.167 GMT [19382] ERROR:  database "mastodon_test" already exists
+2023-03-11 04:17:40.167 GMT [19382] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-11 04:36:43.395 GMT [19308] LOG:  received fast shutdown request
+2023-03-11 04:36:43.396 GMT [19308] LOG:  aborting any active transactions
+2023-03-11 04:36:43.398 GMT [19308] LOG:  background worker "logical replication launcher" (PID 19315) exited with exit code 1
+2023-03-11 04:36:43.398 GMT [19310] LOG:  shutting down
+2023-03-11 04:36:43.410 GMT [19308] LOG:  database system is shut down
+2023-03-11 04:36:43.536 GMT [26877] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-11 04:36:43.536 GMT [26877] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-11 04:36:43.538 GMT [26877] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-11 04:36:43.541 GMT [26878] LOG:  database system was shut down at 2023-03-11 04:36:43 GMT
+2023-03-11 04:36:43.546 GMT [26877] LOG:  database system is ready to accept connections
+2023-03-11 04:36:50.310 GMT [26992] ERROR:  database "mastodon_development" already exists
+2023-03-11 04:36:50.310 GMT [26992] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-11 04:36:50.319 GMT [26993] ERROR:  database "mastodon_test" already exists
+2023-03-11 04:36:50.319 GMT [26993] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'
+2023-03-11 20:36:10.786 GMT [8275] LOG:  starting PostgreSQL 13.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.3.0, 64-bit
+2023-03-11 20:36:10.787 GMT [8275] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-11 20:36:10.791 GMT [8275] LOG:  listening on Unix socket "/home/runner/Mastodon/postgres/.s.PGSQL.5432"
+2023-03-11 20:36:10.796 GMT [8276] LOG:  database system was interrupted; last known up at 2023-03-11 04:42:29 GMT
+2023-03-11 20:36:10.849 GMT [8276] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-03-11 20:36:10.853 GMT [8276] LOG:  redo starts at 0/11BCC300
+2023-03-11 20:36:10.853 GMT [8276] LOG:  invalid record length at 0/11BCC3E8: wanted 24, got 0
+2023-03-11 20:36:10.853 GMT [8276] LOG:  redo done at 0/11BCC3B0
+2023-03-11 20:36:10.865 GMT [8275] LOG:  database system is ready to accept connections
+2023-03-11 20:39:59.012 GMT [18089] ERROR:  database "mastodon_development" already exists
+2023-03-11 20:39:59.012 GMT [18089] STATEMENT:  CREATE DATABASE "mastodon_development" ENCODING = 'unicode'
+2023-03-11 20:39:59.022 GMT [18090] ERROR:  database "mastodon_test" already exists
+2023-03-11 20:39:59.022 GMT [18090] STATEMENT:  CREATE DATABASE "mastodon_test" ENCODING = 'unicode'

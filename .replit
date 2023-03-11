@@ -1,0 +1,7 @@
+run = "sh start.sh"
+
+[env]
+RAILS_ENV="development"
+FREEDESKTOP_MIME_TYPES_PATH="/home/runner/${REPL_SLUG}/freedesktop.org.xml"
+PGDATA = "/home/runner/${REPL_SLUG}/data"
+DB_HOST="/home/runner/${REPL_SLUG}/postgres"

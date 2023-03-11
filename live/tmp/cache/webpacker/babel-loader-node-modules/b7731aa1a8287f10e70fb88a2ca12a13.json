@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict'; // http://ecma-international.org/ecma-262/5.1/#sec-9.3\n\nmodule.exports = function ToNumber(value) {\n  return +value; // eslint-disable-line no-implicit-coercion\n};","map":null,"metadata":{"react-intl":{"messages":[]}},"sourceType":"module"}
