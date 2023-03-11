@@ -63,7 +63,7 @@ Unfortunately, this Repl is designed to run on Replit's machines, and cannot be 
 
 To truly have your own verion of Mastodon, it is essential that it works correctly and displays your Mastodon instance's information. To do this:
 
-1. Head to the [`.env.production.sample`](/live/.env.productiion.sample) in the `live/` folder
+1. Head to the [`.env.production.sample`](/live/.env.production.sample) in the `live/` folder
 2. Enter the correct information
    - Details and instructions are already there!
    - Mailgun is used for the SMPT server, but it can be changed to whatever you like
