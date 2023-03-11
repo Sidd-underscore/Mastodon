@@ -80,6 +80,7 @@ yarn-debug.log*
 *.so.[0-9]
 *.so.[0-9].[0-9]
 *.so.[0-9].[0-9][0-9]
+*.stat
 *.dylib
 *.dll
 *.exp
